@@ -23,11 +23,11 @@ define Package/mtk-lede-linkit
 		+kmod-nls-iso8859-15 +kmod-nls-iso8859-2 +kmod-nls-utf8 \
 		+kmod-sdhci-mt7620 +kmod-usb-storage \
 		+kmod-sound-core +kmod-sound-mt7620 +madplay-alsa +alsa-utils \
-		+tcpdump-mini +@KERNEL_DEVMEM\
+		+tcpdump-mini +@KERNEL_DEVMEM \
 
 		#------remove node + phyton for smaller image---------------
-		#+node +node-hid +node-cylon-firmata +yunbridge \
-		#+python +python-pyserial +python-pip \
+		+node +node-hid +node-cylon-firmata +yunbridge \
+		+python +python-pyserial +python-pip
 
 		#----generic from linkit feeds--------
 		#+gdbserver +curl +strace +coreutils +coreutils-stty \
