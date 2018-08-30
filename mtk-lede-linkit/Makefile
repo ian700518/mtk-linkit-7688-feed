@@ -24,8 +24,6 @@ define Package/mtk-lede-linkit
 		+kmod-sdhci-mt7620 +kmod-usb-storage \
 		+kmod-sound-core +kmod-sound-mt7620 +madplay-alsa +alsa-utils \
 		+tcpdump-mini +@KERNEL_DEVMEM \
-
-		#------remove node + phyton for smaller image---------------
 		+node +node-hid +node-cylon-firmata +yunbridge \
 		+python +python-pyserial +python-pip
 
